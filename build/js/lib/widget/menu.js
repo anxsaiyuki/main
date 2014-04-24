@@ -1,0 +1,1 @@
+define(["jquery"],function(a){return{start:function(){a.get("menu.html",function(b){a("#menu_bar").html(b),console.log("Menu Load was Performed.")})}}});

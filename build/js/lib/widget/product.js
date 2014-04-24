@@ -1,0 +1,1 @@
+define(["jquery"],function(a){return{start:function(){a.get("product.html",function(b){a("#product_container").html(b),console.log("Product Load was Performed.")})}}});
