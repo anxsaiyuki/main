@@ -110,10 +110,11 @@
 
 /* line 102, ../sass/main.scss */
 .subList li {
+  color: white;
   text-decoration: none;
 }
 
-/* line 106, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 .subList li:hover {
   background-color: #2D5781;
   text-decoration: none;
@@ -121,30 +122,30 @@
 
 /* ================================= */
 /* ================================= */
-/* line 116, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 .sideMenu {
   height: 500px;
 }
 
-/* line 121, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .side_container {
   padding-top: 10px;
   height: 1000px;
 }
 
-/* line 126, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 .sidebar {
   text-align: center;
 }
-/* line 130, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .sidebar.is-Title {
   background-color: #2D5781;
 }
-/* line 134, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .sidebar.is-Sub {
   padding-left: 44px;
 }
-/* line 138, ../sass/main.scss */
+/* line 139, ../sass/main.scss */
 .sidebar.is-Top {
   background-color: lightblue;
 }
@@ -152,38 +153,38 @@
 /* ================================= */
 /* Product CSS */
 /* ================================= */
-/* line 145, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 #product_container {
   padding-top: 20px;
 }
 
-/* line 149, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
 .product {
   /*border: 1px solid #eee;*/
   height: 200px;
 }
 
-/* line 154, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 .product .name {
   height: 10%;
 }
 
-/* line 159, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 .product .image {
   height: 50%;
 }
 
-/* line 164, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 .product .description {
   height: 20%;
 }
 
-/* line 169, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 .product .price {
   height: 10%;
 }
 
-/* line 174, ../sass/main.scss */
+/* line 175, ../sass/main.scss */
 .product .button {
   height: 10%;
 }
@@ -192,25 +193,25 @@
 /* ================================= */
 /* ================================= */
 /* ================================= */
-/* line 184, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 #index_banner {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 189, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .index-big-banner {
   height: 200px;
 }
 
-/* line 193, ../sass/main.scss */
+/* line 194, ../sass/main.scss */
 .index-small-banner {
   height: 100px;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 204, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;
