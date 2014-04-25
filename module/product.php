@@ -2,9 +2,9 @@
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 name">
 		Name
 	</div>
-	<a href="product.html"><a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image"></a></a>
+	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image">
 		Image
-	</div>
+	</div></a>
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 description">
 		Description
 	</div>
@@ -19,9 +19,9 @@
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 name">
 		Name
 	</div>
-	<a href="product.html"><a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image"></a></a>
+	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image">
 		Image
-	</div>
+	</div></a>
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 description">
 		Description
 	</div>
@@ -36,9 +36,9 @@
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 name">
 		Name
 	</div>
-	<a href="product.html"><a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image"></a></a>
+	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image">
 		Image
-	</div>
+	</div></a>
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 description">
 		Description
 	</div>
@@ -53,9 +53,9 @@
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 name">
 		Name
 	</div>
-	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image"></a>
+	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image">
 		Image
-	</div>
+	</div></a>
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 description">
 		Description
 	</div>
@@ -70,9 +70,9 @@
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 name">
 		Name
 	</div>
-	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image"></a>
+	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image">
 		Image
-	</div>
+	</div></a>
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 description">
 		Description
 	</div>
@@ -87,9 +87,9 @@
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 name">
 		Name
 	</div>
-	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image"></a>
+	<a href="product.html"><div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 image">
 		Image
-	</div>
+	</div></a>
 	<div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1 description">
 		Description
 	</div>
