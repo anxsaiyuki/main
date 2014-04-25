@@ -130,7 +130,7 @@
 /* ================================= */
 
 /* ================================= */
-/* Product CSS */
+/* Side Menu CSS */
 /* ================================= */
 .sideMenu {
 	@extend %block-border;
@@ -150,10 +150,9 @@
 		@extend %color-white;
 		background-color: #2D5781;
 	}
-	&.is-Sub{
-		padding-left: 44px;
+	&.is-Arrival{
+		height:20%
 	}
-	
 	&.is-Top{
 		background-color:lightblue;
 	}
