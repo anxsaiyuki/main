@@ -60,12 +60,16 @@
 	z-index: 65;
 }
 
-#top_bar_info {
-	float: right;
-	padding-right: 10px;
-	color: white; 
+.login_container {
+	margin-top: -20px;
+	position: absolute;
+	padding-left: 890px;
 }
 
+.top_bar_text {
+	color: white;
+	text-decoration: none;
+}
 #mask {
     display: none;
     background: #000;
