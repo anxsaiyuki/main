@@ -1,5 +1,5 @@
 /* line 1, ../sass/main.scss */
-#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .item-image, .item-content, .item-description, .index-big-banner, .index-small-banner, .footer {
+#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .item-image, .item-content, .item-description, .item-sugget-container, .index-big-banner, .index-small-banner, .footer {
   border: 1px solid #eee;
 }
 
@@ -155,7 +155,7 @@
 /* ================================= */
 /* line 146, ../sass/main.scss */
 #product_container {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* line 150, ../sass/main.scss */
@@ -196,7 +196,7 @@
 /* ================================= */
 /* line 186, ../sass/main.scss */
 #item_container {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* line 191, ../sass/main.scss */
@@ -208,7 +208,7 @@
 
 /* line 198, ../sass/main.scss */
 .item-image {
-  height: 80%;
+  height: 78%;
 }
 
 /* line 203, ../sass/main.scss */
@@ -218,7 +218,14 @@
 
 /* line 208, ../sass/main.scss */
 .item-description {
-  height: 20%;
+  height: 18%;
+  margin-top: 4%;
+}
+
+/* line 214, ../sass/main.scss */
+.item-sugget-container {
+  height: 300px;
+  margin-top: 4%;
 }
 
 /* ================================= */
@@ -226,25 +233,25 @@
 /* ================================= */
 /* Index Banner */
 /* ================================= */
-/* line 219, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 #index_banner {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 224, ../sass/main.scss */
+/* line 231, ../sass/main.scss */
 .index-big-banner {
   height: 200px;
 }
 
-/* line 228, ../sass/main.scss */
+/* line 235, ../sass/main.scss */
 .index-small-banner {
   height: 100px;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 239, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;
