@@ -1,0 +1,1 @@
+define(["jquery"],function(a){return{start:function(){a.get("footer.html",function(b){a("#footer").html(b),console.log("Footer Load was Performed.")})}}});

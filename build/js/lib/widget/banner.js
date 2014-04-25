@@ -1,0 +1,1 @@
+define(["jquery"],function(a){return{start:function(){a.get("banner.html",function(b){a("#banner").html(b),console.log("Banner Load was Performed.")})}}});

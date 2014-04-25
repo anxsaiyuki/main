@@ -1,0 +1,150 @@
+%block-border{
+	border: 1px solid #eee;
+}
+
+%color-white{
+	color: #fff;
+}
+
+#container {
+	width:975px;
+	margin: 0 auto;
+	@extend %block-border;
+}
+
+.row{
+	/*margin-left:-15px;
+	margin-right:-15px;*/
+}
+
+.banner {
+	border: 1px solid #eee;
+	height:150px;
+	background-color: grey;
+}
+
+/* ================================= */
+/* Menu CSS */
+/* ================================= */
+#menu_bar {
+	background-color: #2D5781;
+}
+
+.menu {
+	@extend %block-border;
+	height:24px;
+}
+
+.list {
+	display:inline-block;
+	width:10%;
+	padding-left: 33px;
+	@extend %color-white;
+	/*border: 1px solid #eee;*/
+}
+
+.subList {
+	display:none;
+	
+}
+
+.subList li {
+	border-top: 1px solid black;
+	list-style-type: none;
+	margin-left: -33px;
+	background-color: grey;
+	width: 115px;
+	padding-left: 50px;
+}
+
+.list:hover .subList {
+	position:absolute;
+	display:block;
+	z-index:100;
+}
+
+.list:hover {
+	background-color: grey;
+	
+}
+
+.subList li:hover {
+	background-color: #2D5781;
+}
+
+
+/* ================================= */
+/* ================================= */
+
+
+.sideMenu {
+	@extend %block-border;
+	height:500px;
+}
+
+.side_container {
+	padding-top:10px;
+	height:1000px;
+}
+
+.sidebar {
+
+	@extend %block-border;
+	text-align:center;
+	&.is-Title{
+		@extend %color-white;
+		background-color: #2D5781;
+	}
+	&.is-Sub{
+		padding-left: 44px;
+	}
+	
+	&.is-Top{
+		background-color:lightblue;
+	}
+}
+/* ================================= */
+/* Product CSS */
+/* ================================= */
+#product_container {
+	padding-top:20px;
+}
+
+.product {
+	/*border: 1px solid #eee;*/
+	height:200px;
+}
+
+.product .name {
+	@extend %block-border;
+	height:10%;
+}
+
+.product .image {
+	@extend %block-border;
+	height:50%;
+}
+
+.product .description {
+	@extend %block-border;
+	height:20%;
+}
+
+.product .price {
+	@extend %block-border;
+	height:10%;
+}
+
+.product .button {
+	@extend %block-border;
+	height:10%;
+}
+
+/* ================================= */
+/* ================================= */
+
+.footer {
+	background-color: grey;
+	@extend %block-border;
+	height:150px;
+}

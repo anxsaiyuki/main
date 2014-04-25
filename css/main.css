@@ -1,0 +1,158 @@
+/* line 1, ../sass/main.scss */
+#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .footer {
+  border: 1px solid #eee;
+}
+
+/* line 5, ../sass/main.scss */
+.list, .sidebar.is-Title {
+  color: #fff;
+}
+
+/* line 9, ../sass/main.scss */
+#container {
+  width: 975px;
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/main.scss */
+.row {
+  /*margin-left:-15px;
+  margin-right:-15px;*/
+}
+
+/* line 20, ../sass/main.scss */
+.banner {
+  border: 1px solid #eee;
+  height: 150px;
+  background-color: grey;
+}
+
+/* ================================= */
+/* Menu CSS */
+/* ================================= */
+/* line 29, ../sass/main.scss */
+#menu_bar {
+  background-color: #2D5781;
+}
+
+/* line 33, ../sass/main.scss */
+.menu {
+  height: 24px;
+}
+
+/* line 38, ../sass/main.scss */
+.list {
+  display: inline-block;
+  width: 10%;
+  padding-left: 33px;
+  /*border: 1px solid #eee;*/
+}
+
+/* line 46, ../sass/main.scss */
+.subList {
+  display: none;
+}
+
+/* line 51, ../sass/main.scss */
+.subList li {
+  border-top: 1px solid black;
+  list-style-type: none;
+  margin-left: -33px;
+  background-color: grey;
+  width: 115px;
+  padding-left: 50px;
+}
+
+/* line 60, ../sass/main.scss */
+.list:hover .subList {
+  position: absolute;
+  display: block;
+  z-index: 100;
+}
+
+/* line 66, ../sass/main.scss */
+.list:hover {
+  background-color: grey;
+}
+
+/* line 71, ../sass/main.scss */
+.subList li:hover {
+  background-color: #2D5781;
+}
+
+/* ================================= */
+/* ================================= */
+/* line 80, ../sass/main.scss */
+.sideMenu {
+  height: 500px;
+}
+
+/* line 85, ../sass/main.scss */
+.side_container {
+  padding-top: 10px;
+  height: 1000px;
+}
+
+/* line 90, ../sass/main.scss */
+.sidebar {
+  text-align: center;
+}
+/* line 94, ../sass/main.scss */
+.sidebar.is-Title {
+  background-color: #2D5781;
+}
+/* line 98, ../sass/main.scss */
+.sidebar.is-Sub {
+  padding-left: 44px;
+}
+/* line 102, ../sass/main.scss */
+.sidebar.is-Top {
+  background-color: lightblue;
+}
+
+/* ================================= */
+/* Product CSS */
+/* ================================= */
+/* line 109, ../sass/main.scss */
+#product_container {
+  padding-top: 20px;
+}
+
+/* line 113, ../sass/main.scss */
+.product {
+  /*border: 1px solid #eee;*/
+  height: 200px;
+}
+
+/* line 118, ../sass/main.scss */
+.product .name {
+  height: 10%;
+}
+
+/* line 123, ../sass/main.scss */
+.product .image {
+  height: 50%;
+}
+
+/* line 128, ../sass/main.scss */
+.product .description {
+  height: 20%;
+}
+
+/* line 133, ../sass/main.scss */
+.product .price {
+  height: 10%;
+}
+
+/* line 138, ../sass/main.scss */
+.product .button {
+  height: 10%;
+}
+
+/* ================================= */
+/* ================================= */
+/* line 146, ../sass/main.scss */
+.footer {
+  background-color: grey;
+  height: 150px;
+}
