@@ -71,7 +71,7 @@
 }
 
 /* line 63, ../sass/main.scss */
-.top_bar_info {
+#top_bar_info {
   float: right;
   padding-right: 10px;
   color: white;
