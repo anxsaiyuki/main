@@ -111,34 +111,36 @@
 /* line 102, ../sass/main.scss */
 .subList li:hover {
   background-color: #2D5781;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 111, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 .sideMenu {
   height: 500px;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 .side_container {
   padding-top: 10px;
   height: 1000px;
 }
 
-/* line 121, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 .sidebar {
   text-align: center;
 }
-/* line 125, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 .sidebar.is-Title {
   background-color: #2D5781;
 }
-/* line 129, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .sidebar.is-Sub {
   padding-left: 44px;
 }
-/* line 133, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .sidebar.is-Top {
   background-color: lightblue;
 }
@@ -146,38 +148,38 @@
 /* ================================= */
 /* Product CSS */
 /* ================================= */
-/* line 140, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 #product_container {
   padding-top: 20px;
 }
 
-/* line 144, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 .product {
   /*border: 1px solid #eee;*/
   height: 200px;
 }
 
-/* line 149, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 .product .name {
   height: 10%;
 }
 
-/* line 154, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .product .image {
   height: 50%;
 }
 
-/* line 159, ../sass/main.scss */
+/* line 161, ../sass/main.scss */
 .product .description {
   height: 20%;
 }
 
-/* line 164, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .product .price {
   height: 10%;
 }
 
-/* line 169, ../sass/main.scss */
+/* line 171, ../sass/main.scss */
 .product .button {
   height: 10%;
 }
@@ -186,25 +188,25 @@
 /* ================================= */
 /* ================================= */
 /* ================================= */
-/* line 179, ../sass/main.scss */
+/* line 181, ../sass/main.scss */
 #index_banner {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 184, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 .index-big-banner {
   height: 200px;
 }
 
-/* line 188, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .index-small-banner {
   height: 100px;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 199, ../sass/main.scss */
+/* line 201, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;
