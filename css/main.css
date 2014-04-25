@@ -163,11 +163,15 @@
 .sidebar.is-Title {
   background-color: #2D5781;
 }
-/* line 153, ../sass/main.scss */
-.sidebar.is-Arrival {
-  height: 20%;
+/* line 152, ../sass/main.scss */
+.sidebar.is-Title.NewArrival {
+  margin-top: 5px;
 }
 /* line 156, ../sass/main.scss */
+.sidebar.is-Arrival {
+  height: 10%;
+}
+/* line 159, ../sass/main.scss */
 .sidebar.is-Top {
   background-color: lightblue;
 }
@@ -177,38 +181,38 @@
 /* ================================= */
 /* Product CSS */
 /* ================================= */
-/* line 166, ../sass/main.scss */
+/* line 169, ../sass/main.scss */
 #product_container {
   padding-top: 10px;
 }
 
-/* line 170, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 .product {
   /*border: 1px solid #eee;*/
   height: 200px;
 }
 
-/* line 175, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 .product .name {
   height: 10%;
 }
 
-/* line 180, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .product .image {
   height: 50%;
 }
 
-/* line 185, ../sass/main.scss */
+/* line 188, ../sass/main.scss */
 .product .description {
   height: 20%;
 }
 
-/* line 190, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 .product .price {
   height: 10%;
 }
 
-/* line 195, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 .product .button {
   height: 10%;
 }
@@ -218,35 +222,35 @@
 /* ================================= */
 /* Item Css */
 /* ================================= */
-/* line 206, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 #item_container {
   padding-top: 10px;
 }
 
-/* line 211, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .item-image-container {
   padding-left: 50px;
   padding-right: 50px;
   height: 600px;
 }
 
-/* line 218, ../sass/main.scss */
+/* line 221, ../sass/main.scss */
 .item-image {
   height: 78%;
 }
 
-/* line 223, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 .item-content {
   height: 600px;
 }
 
-/* line 228, ../sass/main.scss */
+/* line 231, ../sass/main.scss */
 .item-description {
   height: 18%;
   margin-top: 4%;
 }
 
-/* line 234, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .item-suggest-container {
   height: 300px;
   margin-top: 4%;
@@ -257,25 +261,25 @@
 /* ================================= */
 /* Index Banner */
 /* ================================= */
-/* line 246, ../sass/main.scss */
+/* line 249, ../sass/main.scss */
 #index_banner {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 251, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
 .index-big-banner {
   height: 200px;
 }
 
-/* line 255, ../sass/main.scss */
+/* line 258, ../sass/main.scss */
 .index-small-banner {
   height: 100px;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 266, ../sass/main.scss */
+/* line 269, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;

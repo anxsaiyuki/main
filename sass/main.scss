@@ -149,9 +149,12 @@
 	&.is-Title{
 		@extend %color-white;
 		background-color: #2D5781;
+		&.NewArrival{
+			margin-top:5px;
+		}
 	}
 	&.is-Arrival{
-		height:20%
+		height:10%
 	}
 	&.is-Top{
 		background-color:lightblue;
