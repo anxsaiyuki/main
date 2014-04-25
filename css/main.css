@@ -78,12 +78,18 @@
 }
 
 /* line 69, ../sass/main.scss */
+.register_form {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* line 74, ../sass/main.scss */
 .top_bar_text {
   color: white;
   text-decoration: none;
 }
 
-/* line 73, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 #mask {
   display: none;
   background: #000;
@@ -98,7 +104,7 @@
 }
 
 /* You can customize to your needs  */
-/* line 87, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .login-popup {
   display: none;
   background: #333;
@@ -123,36 +129,36 @@
   /* Safari, Chrome */
 }
 
-/* line 111, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 img.btn_close {
   float: right;
   margin: -28px -28px 0 0;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 fieldset {
   border: none;
 }
 
-/* line 120, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 form.signin .textbox label {
   display: block;
   padding-bottom: 7px;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 form.signin .textbox span {
   display: block;
 }
 
-/* line 129, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 form.signin p, form.signin span {
   color: #999;
   font-size: 11px;
   line-height: 18px;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 form.signin .textbox input {
   background: #666666;
   border-bottom: 1px solid #333;
@@ -168,19 +174,19 @@ form.signin .textbox input {
   width: 200px;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 form.signin input:-moz-placeholder {
   color: #bbb;
   text-shadow: 0 0 2px #000;
 }
 
-/* line 155, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 form.signin input::-webkit-input-placeholder {
   color: #bbb;
   text-shadow: 0 0 2px #000;
 }
 
-/* line 160, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 .button {
   background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
   background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
@@ -200,7 +206,7 @@ form.signin input::-webkit-input-placeholder {
   width: 214px;
 }
 
-/* line 179, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .button:hover {
   background: #ddd;
 }
@@ -210,17 +216,17 @@ form.signin input::-webkit-input-placeholder {
 /* ================================= */
 /* Menu CSS */
 /* ================================= */
-/* line 190, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 #menu_bar {
   background-color: #2D5781;
 }
 
-/* line 194, ../sass/main.scss */
+/* line 199, ../sass/main.scss */
 .menu {
   height: 24px;
 }
 
-/* line 199, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .list {
   display: inline-block;
   width: 10%;
@@ -228,12 +234,12 @@ form.signin input::-webkit-input-placeholder {
   /*border: 1px solid #eee;*/
 }
 
-/* line 207, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 .subList {
   display: none;
 }
 
-/* line 212, ../sass/main.scss */
+/* line 217, ../sass/main.scss */
 .subList li {
   border-top: 1px solid black;
   list-style-type: none;
@@ -243,25 +249,25 @@ form.signin input::-webkit-input-placeholder {
   padding-left: 50px;
 }
 
-/* line 221, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 .list:hover .subList {
   position: absolute;
   display: block;
   z-index: 100;
 }
 
-/* line 227, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 .list:hover {
   background-color: grey;
 }
 
-/* line 232, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .subList li {
   color: white;
   text-decoration: none;
 }
 
-/* line 237, ../sass/main.scss */
+/* line 242, ../sass/main.scss */
 .subList li:hover {
   background-color: #2D5781;
   text-decoration: none;
@@ -272,34 +278,34 @@ form.signin input::-webkit-input-placeholder {
 /* ================================= */
 /* Side Menu CSS */
 /* ================================= */
-/* line 249, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
 .sideMenu {
   height: 900px;
 }
 
-/* line 254, ../sass/main.scss */
+/* line 259, ../sass/main.scss */
 .side_container {
   padding-top: 10px;
   height: 1000px;
 }
 
-/* line 259, ../sass/main.scss */
+/* line 264, ../sass/main.scss */
 .sidebar {
   text-align: center;
 }
-/* line 263, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 .sidebar.is-Title {
   background-color: #2D5781;
 }
-/* line 266, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 .sidebar.is-Title.NewArrival {
   margin-top: 5px;
 }
-/* line 270, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .sidebar.is-Arrival {
   height: 10%;
 }
-/* line 273, ../sass/main.scss */
+/* line 278, ../sass/main.scss */
 .sidebar.is-Top {
   background-color: lightblue;
 }
@@ -309,38 +315,38 @@ form.signin input::-webkit-input-placeholder {
 /* ================================= */
 /* Product CSS */
 /* ================================= */
-/* line 283, ../sass/main.scss */
+/* line 288, ../sass/main.scss */
 #product_container {
   padding-top: 10px;
 }
 
-/* line 287, ../sass/main.scss */
+/* line 292, ../sass/main.scss */
 .product {
   /*border: 1px solid #eee;*/
   height: 200px;
 }
 
-/* line 292, ../sass/main.scss */
+/* line 297, ../sass/main.scss */
 .product .name {
   height: 10%;
 }
 
-/* line 297, ../sass/main.scss */
+/* line 302, ../sass/main.scss */
 .product .image {
   height: 50%;
 }
 
-/* line 302, ../sass/main.scss */
+/* line 307, ../sass/main.scss */
 .product .description {
   height: 20%;
 }
 
-/* line 307, ../sass/main.scss */
+/* line 312, ../sass/main.scss */
 .product .price {
   height: 10%;
 }
 
-/* line 312, ../sass/main.scss */
+/* line 317, ../sass/main.scss */
 .product .buttons {
   height: 10%;
 }
@@ -350,35 +356,35 @@ form.signin input::-webkit-input-placeholder {
 /* ================================= */
 /* Item Css */
 /* ================================= */
-/* line 323, ../sass/main.scss */
+/* line 328, ../sass/main.scss */
 #item_container {
   padding-top: 10px;
 }
 
-/* line 328, ../sass/main.scss */
+/* line 333, ../sass/main.scss */
 .item-image-container {
   padding-left: 50px;
   padding-right: 50px;
   height: 600px;
 }
 
-/* line 335, ../sass/main.scss */
+/* line 340, ../sass/main.scss */
 .item-image {
   height: 78%;
 }
 
-/* line 340, ../sass/main.scss */
+/* line 345, ../sass/main.scss */
 .item-content {
   height: 600px;
 }
 
-/* line 345, ../sass/main.scss */
+/* line 350, ../sass/main.scss */
 .item-description {
   height: 18%;
   margin-top: 4%;
 }
 
-/* line 351, ../sass/main.scss */
+/* line 356, ../sass/main.scss */
 .item-suggest-container {
   height: 300px;
   margin-top: 4%;
@@ -389,18 +395,18 @@ form.signin input::-webkit-input-placeholder {
 /* ================================= */
 /* Index Banner */
 /* ================================= */
-/* line 363, ../sass/main.scss */
+/* line 368, ../sass/main.scss */
 #index_banner {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 368, ../sass/main.scss */
+/* line 373, ../sass/main.scss */
 .index-big-banner {
   height: 200px;
 }
 
-/* line 372, ../sass/main.scss */
+/* line 377, ../sass/main.scss */
 .index-small-banner {
   height: 100px;
 }
@@ -410,14 +416,14 @@ form.signin input::-webkit-input-placeholder {
 /* ================================= */
 /* Login */
 /* ================================= */
-/* line 388, ../sass/main.scss */
+/* line 393, ../sass/main.scss */
 .register_container {
   height: 400px;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 396, ../sass/main.scss */
+/* line 401, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;
