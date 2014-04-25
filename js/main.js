@@ -30,7 +30,7 @@ require(['banner','menu','sideMenu','product','footer','index_banner','top_bar',
 					
 							//Getting the variable's value from a link 
 					var loginBox = $(this).attr('href');
-
+					
 					//Fade in the Popup
 					$(loginBox).fadeIn(300);
 					
