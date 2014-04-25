@@ -24,7 +24,7 @@
 }
 
 /* ================================= */
-/* Menu CSS */
+/* Top Bar CSS */
 /* ================================= */
 
 .top_bar {
@@ -49,6 +49,22 @@
 	background: white; 
 }
 
+.line {
+	float: right;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: white;
+	position: relative;
+	display: block;
+	z-index: 65;
+}
+
+.top_bar_info {
+	float: right;
+	padding-right: 10px;
+	color: white; 
+}
 /* ================================= */
 /* ================================= */
 
@@ -113,10 +129,12 @@
 /* ================================= */
 /* ================================= */
 
-
+/* ================================= */
+/* Product CSS */
+/* ================================= */
 .sideMenu {
 	@extend %block-border;
-	height:500px;
+	height: 900px;
 }
 
 .side_container {
@@ -140,6 +158,9 @@
 		background-color:lightblue;
 	}
 }
+/* ================================= */
+/* ================================= */
+
 /* ================================= */
 /* Product CSS */
 /* ================================= */
