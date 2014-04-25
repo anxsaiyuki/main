@@ -29,7 +29,7 @@ require(['banner','menu','sideMenu','product','footer','index_banner','top_bar',
 				$('a.login-window').click(function() {
 					
 							//Getting the variable's value from a link 
-					var loginBox = $(this).attr('href');
+					var loginBox = '#' + $(this).attr('dialog');
 					
 					//Fade in the Popup
 					$(loginBox).fadeIn(300);
