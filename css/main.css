@@ -1,5 +1,5 @@
 /* line 1, ../sass/main.scss */
-#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .item-image, .item-content, .item-description, .item-sugget-container, .index-big-banner, .index-small-banner, .footer {
+#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .item-image, .item-content, .item-description, .item-suggest-container, .index-big-banner, .index-small-banner, .footer {
   border: 1px solid #eee;
 }
 
@@ -223,7 +223,7 @@
 }
 
 /* line 214, ../sass/main.scss */
-.item-sugget-container {
+.item-suggest-container {
   height: 300px;
   margin-top: 4%;
 }
