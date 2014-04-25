@@ -8,11 +8,12 @@ require.config({
 		product: 'widget/product',
 		footer: 'widget/footer',
 		index_banner: 'widget/index_banner',
-		top_bar: 'widget/top_bar'
+		top_bar: 'widget/top_bar',
+		item: 'widget/item'
     }
 });
 
-require(['banner','menu','sideMenu','product','footer','index_banner','top_bar'], function(a,b,c,d,e,f,g) {
+require(['banner','menu','sideMenu','product','footer','index_banner','top_bar','item'], function(a,b,c,d,e,f,g,h) {
   
 	a.start();
 	b.start();
@@ -21,5 +22,6 @@ require(['banner','menu','sideMenu','product','footer','index_banner','top_bar']
 	e.start();
 	f.start();
 	g.start();
+	h.start();
 	
 });
