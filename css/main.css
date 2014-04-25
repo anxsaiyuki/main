@@ -1,5 +1,5 @@
 /* line 1, ../sass/main.scss */
-#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .tem-description, .index-big-banner, .index-small-banner, .footer {
+#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .item-image, .tem-description, .index-big-banner, .index-small-banner, .footer {
   border: 1px solid #eee;
 }
 
@@ -205,7 +205,7 @@
 }
 
 /* line 196, ../sass/main.scss */
-.item-image-container {
+.item-image {
   height: 400px;
 }
 
