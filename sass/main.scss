@@ -183,13 +183,24 @@
 /* ================================= */
 /* Item Css */
 /* ================================= */
+#item_container {
+	padding-top:20px;
+}
 
-.item-image {
-@extend %block-border;
+
+.item-image-container {
+	@extend %block-border;
+	height:600px;
+}
+
+.item-image-container {
+	@extend %block-border;
+	height:400px;
 }
 
 .tem-description {
-@extend %block-border;
+	@extend %block-border;
+	height:600px;
 }
 
 /* ================================= */
