@@ -154,18 +154,24 @@
 /* ================================= */
 /* ================================= */
 /* line 148, ../sass/main.scss */
+#index_banner {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 152, ../sass/main.scss */
 .index-big-banner {
   height: 200px;
 }
 
-/* line 152, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .index-small-banner {
   height: 100px;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 163, ../sass/main.scss */
+/* line 167, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;

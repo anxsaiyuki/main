@@ -145,6 +145,11 @@
 
 /* ================================= */
 /* ================================= */
+#index_banner {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 .index-big-banner {
 	@extend %block-border;
 	height:200px;
