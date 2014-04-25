@@ -7,7 +7,7 @@ require.config({
 		sideMenu: 'widget/sideMenu',
 		product: 'widget/product',
 		footer: 'widget/footer',
-		index_banner: 'widget/index_banner'
+		index_banner: 'widget/index_banner',
 		top_bar: 'widget/top_bar'
     }
 });
