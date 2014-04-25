@@ -1,5 +1,5 @@
 /* line 1, ../sass/main.scss */
-#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .footer {
+#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .index-big-banner, .index-small-banner, .footer {
   border: 1px solid #eee;
 }
 
@@ -151,7 +151,21 @@
 
 /* ================================= */
 /* ================================= */
-/* line 146, ../sass/main.scss */
+/* ================================= */
+/* ================================= */
+/* line 148, ../sass/main.scss */
+.index-big-banner {
+  height: 200px;
+}
+
+/* line 152, ../sass/main.scss */
+.index-small-banner {
+  height: 100px;
+}
+
+/* ================================= */
+/* ================================= */
+/* line 163, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;
