@@ -26,6 +26,37 @@
 /* ================================= */
 /* Menu CSS */
 /* ================================= */
+
+.top_bar {
+	background-color: black;
+	height: 20px;
+}
+.home_button {
+	float:right;
+}
+.home_button_top {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 9px 9px 9px;
+	border-color: transparent transparent #ffffff transparent;
+}
+
+.home_button_bottom{
+	margin-left: 5px;
+	width: 9px; 
+	height: 9px; 
+	background: white; 
+}
+
+/* ================================= */
+/* ================================= */
+
+
+
+/* ================================= */
+/* Menu CSS */
+/* ================================= */
 #menu_bar {
 	background-color: #2D5781;
 }
