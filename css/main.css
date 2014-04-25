@@ -1,5 +1,5 @@
 /* line 1, ../sass/main.scss */
-#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .item-image, .tem-description, .index-big-banner, .index-small-banner, .footer {
+#container, .menu, .sideMenu, .sidebar, .product .name, .product .image, .product .description, .product .price, .product .button, .item-image-container, .item-image, .item-content, .item-description, .index-big-banner, .index-small-banner, .footer {
   border: 1px solid #eee;
 }
 
@@ -201,17 +201,24 @@
 
 /* line 191, ../sass/main.scss */
 .item-image-container {
+  padding-left: 50px;
+  padding-right: 50px;
   height: 600px;
 }
 
-/* line 196, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 .item-image {
-  height: 400px;
+  height: 80%;
 }
 
-/* line 201, ../sass/main.scss */
-.tem-description {
+/* line 203, ../sass/main.scss */
+.item-content {
   height: 600px;
+}
+
+/* line 208, ../sass/main.scss */
+.item-description {
+  height: 20%;
 }
 
 /* ================================= */
@@ -219,25 +226,25 @@
 /* ================================= */
 /* Index Banner */
 /* ================================= */
-/* line 212, ../sass/main.scss */
+/* line 219, ../sass/main.scss */
 #index_banner {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 217, ../sass/main.scss */
+/* line 224, ../sass/main.scss */
 .index-big-banner {
   height: 200px;
 }
 
-/* line 221, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 .index-small-banner {
   height: 100px;
 }
 
 /* ================================= */
 /* ================================= */
-/* line 232, ../sass/main.scss */
+/* line 239, ../sass/main.scss */
 .footer {
   background-color: grey;
   height: 150px;

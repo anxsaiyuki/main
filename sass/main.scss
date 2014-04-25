@@ -190,17 +190,24 @@
 
 .item-image-container {
 	@extend %block-border;
+	padding-left: 50px;
+	padding-right: 50px;
 	height:600px;
 }
 
 .item-image {
 	@extend %block-border;
-	height:400px;
+	height:80%;
 }
 
-.tem-description {
+.item-content {
 	@extend %block-border;
 	height:600px;
+}
+
+.item-description{
+	@extend %block-border;
+	height:20%;
 }
 
 /* ================================= */
